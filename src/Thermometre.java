@@ -69,7 +69,7 @@ public class Thermometre
 		}
 		catch (Exception err)
 		{
-			return -273000; // Round to milli-degree
+			return -273999; // Round to milli-degree
 		}		
 	}
 	public String readChars()
