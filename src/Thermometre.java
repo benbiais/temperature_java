@@ -64,7 +64,7 @@ public class Thermometre
 			}
 			else
 			{
-				return -273000;	// Bad CRC return -273 degrees
+				return -273888;	// Bad CRC return -273 degrees
 			}
 		}
 		catch (Exception err)
