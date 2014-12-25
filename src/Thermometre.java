@@ -59,7 +59,7 @@ public class Thermometre
 			if (ThermoFile_InputLine1.indexOf("YES") > 0)
 			{
 				int posT = ThermoFile_InputLine2.indexOf("t=") + 2;
-				String temp = ThermoFile_InputLine2.substring(posT - ThermoFile_InputLine2.length());			// keep only last n chars
+				String temp = ThermoFile_InputLine2.substring(posT , ThermoFile_InputLine2.length());			// keep only last n chars
 				return Integer.parseInt(temp);
 			}
 			else
